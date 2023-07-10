@@ -1,7 +1,11 @@
-const convertToCelsius = function() {
+const convertToCelsius = function(fahrenheit) {
+  let answer = Math.round(((fahrenheit - 32) * 5/9) * 10) / 10
+  return answer
 };
 
-const convertToFahrenheit = function() {
+const convertToFahrenheit = function(celsius) {
+  let answer = Math.round((celsius * 9/5 + 32) * 10) / 10
+  return answer
 };
 
 // Do not edit below this line
