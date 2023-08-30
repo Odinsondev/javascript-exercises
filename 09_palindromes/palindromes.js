@@ -9,11 +9,11 @@ const palindromes = function(string) {
     let joinedString = reversedArray.join("");
     return joinedString;
   }
-if (string3 === reverseString()) {
-  return true;
-} else {
-  return false;
-}
+  if (string3 === reverseString()) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 // Do not edit below this line
